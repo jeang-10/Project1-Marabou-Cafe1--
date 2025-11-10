@@ -1,0 +1,99 @@
+body { margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(38, 91%, 54%);
+    color:black;
+}
+
+.welcome-section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 80px;
+    gap: 40px;
+    min-height: 100vh;
+
+}
+.test-content{ 
+    flex: 1;
+}
+ .test-content h1.welcome{ 
+    font-size: 2,8rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 10px;
+
+}
+.text-content h2{ 
+    font-size: 1,5rem;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    font-weight: 700;
+    max-width: 550px;
+}
+.text-content p{ 
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    max-width: 550px;
+    
+}
+.button{ 
+    display: inline-block;
+    background-color: chocolate;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0,3s,transform 0.2s;
+    margin-top: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.button:hover{ 
+    background-color: aqua;
+    transform: translateY(-3px);
+}
+  .welcome:hover{ 
+    background-color: blueviolet;
+    transform: translateX(-1px);
+
+    }
+ 
+.image-content { 
+    display: flex; 
+    gap: 30px;
+    flex: 1.2;
+    justify-content: center;   
+}
+
+.image-content img{ 
+    width: 340px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+ .image-content{ 
+    margin: top 40px;
+    justify-content: center;
+}
+
+
+p::after{ 
+    content: unset;
+}
+
+  p:first-letter{ 
+font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
